@@ -35,6 +35,8 @@ public class ReadFromFile {
                 String line = "";
                 int count =Constants.ZERO;
                 int[][] input_Single_Matrix = new int[Constants.ZERO][];
+
+                int i = Integer.valueOf(br.readLine(), 2);
                 while ((line = br.readLine()) != null) {
                     if(line!= Constants.NEW_LINE){
                         System.out.println(this.convert_Row_To_Values(line));
